@@ -4,7 +4,7 @@ The dataset mnist_small, divided into four files. The mnist dataset is widely us
 correspond to <pixels, digit>).
 
 
-Use squared loss function $L =\frac{1}{2}(y − t)^2 ,because it is easy to combine with learing effect and to get derivation.\\
+Use squared loss function $L =\frac{1}{2}(y − t)^2$ ,because it is easy to combine with learing effect and to get derivation.\\
 
 We choose a MLP with 2 layers,i.e. a hidden layer.If one choose a MLP with more layers ,the gradient of first few weight will disappear.So the backpropagation will not work any more.And with 2 layers one can esimate
 arbitrary functions.\\
